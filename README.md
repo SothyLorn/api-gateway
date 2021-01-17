@@ -1,5 +1,5 @@
 # api-gateway
-bash ```
+```bash
 version: "3.5"
 services:
   kong-database:

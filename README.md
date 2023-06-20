@@ -132,8 +132,8 @@ end
 # www redirect
 ```bash
 local host = kong.request.get_host() 
-if host == "www.support.sisgroup.sg" then 
-  local host = "support.sisgroup.sg" 
+if host == "www.demo.sothy.tech" then 
+  local host = "demo.sothy.tech" 
   local query = kong.request.get_path_with_query() 
   local url = "https://" .. host ..query 
   kong.response.set_header("Location",url) 
